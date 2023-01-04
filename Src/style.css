@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.logo {
+  max-height: 40px;
+}
+nav li {
+  text-decoration: none;
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+.Header-content {
+  text-align: center;
+  background: var(--secondary-color);
+  padding: 98px 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+.Header-content h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.Header-content p {
+  margin-top: 0px;
+  font-family: var(--default-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #272142;
+  line-height: 0;
+}
+.Header-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  text-align: center;
+  color: #272142;
+}
+
+.contact-button {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.contact-button:hover {
+  background-color: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
